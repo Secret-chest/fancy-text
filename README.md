@@ -21,3 +21,7 @@ Bold, italic and bold italic fonts support all letters, both upper-case and lowe
 The monospaced font supports a wide range of characters, including upper-case and lower-cse letters, numbers, and symbols such as .,!()[]#/
 Typewriter and Serif only support the same characters as bold, italic and bold italic. Same for Handwriting and Formal.
 Blue, Squared and Circled only support uppercase letters.
+
+
+## Found a new font?
+Please leave all the Unicode characters in an issue. I will implement the font. 
