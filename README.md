@@ -1,7 +1,7 @@
 # fancy-text
 A simple Python program to convert your text to Unicode fonts that work anywhere. 
 
-Fonts:
+## Fonts:
 - 𝗕𝗼𝗹𝗱
 - 𝘐𝘵𝘢𝘭𝘪𝘤
 - 𝘽𝙤𝙡𝙙 𝙄𝙩𝙖𝙡𝙞𝙘
@@ -13,3 +13,11 @@ Fonts:
 - 🇧 🇱 🇺 🇪 (this is uppercase-only!)
 - 🅂🅀🅄🄰🅁🄴🄳 (also uppercase-only)
 - 🅒🅘🅡🅒🅛🅔🅓 (also uppercase-only)
+
+
+
+## Character support:
+Bold, italic and bold italic fonts support all letters, both upper-case and lower-case, and all numerals.
+The monospaced font supports a wide range of characters, including upper-case and lower-cse letters, numbers, and symbols such as .,!()[]#/
+Typewriter and Serif only support the same characters as bold, italic and bold italic. Same for Handwriting and Formal.
+Blue, Squared and Circled only support uppercase letters.
