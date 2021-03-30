@@ -21,6 +21,7 @@ print("│11 Circled             │ 🅐🅑🅒🅓🅔🅕🅖🅗🅘🅙�
 print("│12 Small Caps          │ ᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ                                                             │▒▒")
 print("│13 Cool Handwriting    │ ᗩᗷᑕᗪEᖴGᕼIᒍKᒪᗰᑎOᑭᑫᖇᔕTᑌᐯᗯ᙭Yᘔ                                                       │▒▒")
 print("│14 Reversed            │ AᗺƆᗡƎꟻວHIᒐꓘ⅃MИOꟼϘЯƧTUV                                                              │▒▒")
+print("│15 Upside down         │ ∀ᗺƆᗡƎℲפHIſꓘ˥WNOԀQɹS┴∩ΛMX⅄Zɐqɔpǝɟƃɥᴉɾʞlɯuodbɹsʇnʌʍxʎz                                │▒▒")
 print("└───────────────────────┴─────────────────────────────────────────────────────────────────────────────────────┘▒▒")
 print("  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒")
 # If you're forking, do not delete this!
@@ -41,7 +42,8 @@ original = ["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-            "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"]
 
 # Character map for all the fonts. The ninth item is made out of flags, this is due to ligatures, not an error. Add
 # your font character map here. Must be in the same order as the same item in the "original" list.
@@ -58,7 +60,8 @@ replace = ["𝗔𝗕𝗖𝗗𝗘𝗙𝗚𝗛𝗜𝗝𝗞𝗟𝗠𝗡𝗢𝗣𝗤
            "🅐🅑🅒🅓🅔🅕🅖🅗🅘🅙🅚🅛🅜🅝🅞🅟🅠🅡🅢🅣🅤🅥🅦🅧🅨🅩",
            "ᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ",
            "ᗩᗷᑕᗪEᖴGᕼIᒍKᒪᗰᑎOᑭᑫᖇᔕTᑌᐯᗯ᙭Yᘔ",
-           "AᗺƆᗡƎꟻວHIᒐꓘ⅃MИOꟼϘЯƧTUVWXYZ"]
+           "AᗺƆᗡƎꟻວHIᒐꓘ⅃MИOꟼϘЯƧTUVWXYZ",
+           "∀ᗺƆᗡƎℲפHIſꓘ˥WNOԀQɹS┴∩ΛMX⅄Zɐqɔpǝɟƃɥᴉɾʞlɯuodbɹsʇnʌʍxʎz"]
 
 # Extract the selected character maps from the list.
 original_map = original[style - 1]
@@ -71,7 +74,7 @@ result = ""
 uppercase_only = [9, 10, 11, 12, 13, 14]
 if style in uppercase_only:
     txt = txt.upper()
-if style == 14:
+if style == 14 or style == 15:
     reversed = ''.join(reversed(txt))
     txt = reversed
 
