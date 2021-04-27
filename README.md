@@ -18,6 +18,7 @@ A simple Python program to convert your text to Unicode fonts that work anywhere
 - ᗡƎƧЯƎVƎЯ (uppercase-only)
 - uʍop ǝpᴉsd∩
 - 匚ㄖㄖㄥ ㄒ乇乂ㄒ
+- 𝕆𝕦𝕥𝕝𝕚𝕟𝕖
 
 
 
