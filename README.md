@@ -17,6 +17,7 @@ A simple Python program to convert your text to Unicode fonts that work anywhere
 - ᑕOOᒪ ᕼᗩᑎᗪᗯᖇITIᑎG (uppercase-only, thanks To @WorldLanguages for the Scratch Symbols project)
 - ᗡƎƧЯƎVƎЯ (uppercase-only)
 - uʍop ǝpᴉsd∩
+- 匚ㄖㄖㄥ ㄒ乇乂ㄒ
 
 
 
