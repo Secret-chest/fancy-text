@@ -22,8 +22,10 @@ A simple Python program to convert your text to Unicode fonts that work anywhere
 - ƈųཞƖყ (this is lowercase-only!)
 - ɦαɳ∂ω૨เƭเɳɠ 3 (also lowercase-only)
 - ʂƚɾαɳɠҽ (also lowercase-only)
+- ฬเєг๔ (uppercase-only!)
 
-
+# Note
+Lowercase letters will be automaticly replaced with uppercase ones when you use a uppercase-only font (This also applies to lowercase-only fonts!).
 
 ## Character support:
 Bold, italic and bold italic fonts support all letters, both upper-case and lower-case, and all numerals.
