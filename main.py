@@ -27,12 +27,13 @@ print("│18 Outline             │ 𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛�
 print("│19 Curly               │ ąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑ                                                          │▒▒")
 print("│20 Handwriting 3       │ αɓ૮∂εƒɠɦเʝҡℓɱɳσρզ૨รƭµѵωאყƶ                                                           │▒▒")
 print("│21 Strange             │ αႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ                                                          │▒▒")
+print("│22 Wierd               │ ค๒ς๔єŦﻮђเןкɭ๓ภ๏קợгรՇยשฬץאչ                                                         │▒▒")
 print("└───────────────────────┴─────────────────────────────────────────────────────────────────────────────────────┘▒▒")
 print("  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒")
 # If you're forking, do not delete this!
 style = int(input("Font: "))
 
-#ąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑ
+#ค๒ς๔єŦﻮђเןкɭ๓ภ๏קợгรՇยשฬאץչ
 
 # List of accepted characters depending on the font. Add all of the accepted characters in your font as a new item in
 # this list.
@@ -54,6 +55,7 @@ original = ["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
             "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
@@ -80,7 +82,8 @@ replace = ["𝗔𝗕𝗖𝗗𝗘𝗙𝗚𝗛𝗜𝗝𝗞𝗟𝗠𝗡𝗢𝗣𝗤
            "𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡𝟘",
            "ąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑ",
            "αɓ૮∂εƒɠɦเʝҡℓɱɳσρզ૨รƭµѵωאყƶ",
-           "αႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ"]
+           "αႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ",
+           "ค๒ς๔єŦﻮђเןкɭ๓ภ๏קợгรՇยשฬץאչ"]
 
 #αɓ૮∂εƒɠɦเʝҡℓɱɳσρφ૨รƭµѵωאყƶ  αႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ
 
@@ -92,7 +95,7 @@ replace_map = replace[style - 1]
 result = ""
 
 # Define which fonts are uppercase-only. If your font is uppercase-only, please add it here.
-uppercase_only = [9, 10, 11, 12, 13, 14, 16, 19, 20, 21]
+uppercase_only = [9, 10, 11, 12, 13, 14, 16, 19, 20, 21, 22]
 if style in uppercase_only:
     txt = txt.upper()
 if style == 14 or style == 15:
