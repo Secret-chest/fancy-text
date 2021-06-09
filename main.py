@@ -28,6 +28,7 @@ print("│19 Curly               │ ąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬ
 print("│20 Handwriting 3       │ αɓ૮∂εƒɠɦเʝҡℓɱɳσρզ૨รƭµѵωאყƶ                                                           │▒▒")
 print("│21 Strange             │ αႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ                                                          │▒▒")
 print("│22 Wierd               │ ค๒ς๔єŦﻮђเןкɭ๓ภ๏קợгรՇยשฬץאչ                                                         │▒▒")
+print("│23 Strange 2           │ ꪖ᥇ᥴᦔꫀᠻᧁꫝⅈ𝕛𝕜ꪶꪑꪀꪮρ𝕢𝕣ડ𝕥ꪊꪜ᭙᥊ꪗ𝕫                                                         │▒▒")
 print("└───────────────────────┴─────────────────────────────────────────────────────────────────────────────────────┘▒▒")
 print("  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒")
 # If you're forking, do not delete this!
@@ -58,6 +59,7 @@ original = ["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
 
 # Character map for all the fonts. The ninth item is made out of flags, this is due to ligatures, not an error. Add
@@ -83,9 +85,8 @@ replace = ["𝗔𝗕𝗖𝗗𝗘𝗙𝗚𝗛𝗜𝗝𝗞𝗟𝗠𝗡𝗢𝗣𝗤
            "ąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑ",
            "αɓ૮∂εƒɠɦเʝҡℓɱɳσρզ૨รƭµѵωאყƶ",
            "αႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ",
-           "ค๒ς๔єŦﻮђเןкɭ๓ภ๏קợгรՇยשฬץאչ"]
-
-#αɓ૮∂εƒɠɦเʝҡℓɱɳσρφ૨รƭµѵωאყƶ  αႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ
+           "ค๒ς๔єŦﻮђเןкɭ๓ภ๏קợгรՇยשฬץאչ",
+           "ꪖ᥇ᥴᦔꫀᠻᧁꫝⅈ𝕛𝕜ꪶꪑꪀꪮρ𝕢𝕣ડ𝕥ꪊꪜ᭙᥊ꪗ𝕫 "]
 
 # Extract the selected character maps from the list.
 original_map = original[style - 1]
@@ -95,7 +96,7 @@ replace_map = replace[style - 1]
 result = ""
 
 # Define which fonts are uppercase-only. If your font is uppercase-only, please add it here.
-uppercase_only = [9, 10, 11, 12, 13, 14, 16, 19, 20, 21, 22]
+uppercase_only = [9, 10, 11, 12, 13, 14, 16, 19, 20, 21, 22, 23]
 if style in uppercase_only:
     txt = txt.upper()
 if style == 14 or style == 15:
