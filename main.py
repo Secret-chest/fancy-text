@@ -102,7 +102,7 @@ replaceMap = replace[style - 1]
 result = ""
 
 # Define which fonts are uppercase-only. If your font is uppercase-only, please add it here.
-uppercaseOnly = [9, 10, 11, 12, 13, 14, 16, 19, 20, 21, 22, 23, 24]
+uppercaseOnly = [9, 10, 11, 12, 13, 14, 16, 19, 20, 21, 22, 23, 24, 25]
 if style in uppercaseOnly:
     txt = txt.upper()
 if style == 14 or style == 15:

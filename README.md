@@ -22,16 +22,19 @@ A simple Python program to convert your text to Unicode fonts that work anywhere
 - ƈųཞƖყ (this is lowercase-only!)
 - ɦαɳ∂ω૨เƭเɳɠ 3 (also lowercase-only)
 - ʂƚɾαɳɠҽ (also lowercase-only)
-- ฬเєг๔ (uppercase-only!)
+- ƈųཞƖყ (uppercase-only!)
+- ɦαɳ∂ω૨เƭเɳɠ 3 (lowercase-only)
+- ɱαɠιƈ (lowercase only!)
+- ๓คﻮเς 2 (also lowercase-only)
+- ડ𝕥𝕣ꪖꪀᧁꫀ (lowercase only)
+- 🄟🄐🄡🄐🄝🄣🄗🄔🄢🄘🄩🄔🄓 (uppercase-only)
+- 🅱🅾🆇🅴🅳 (also uppercase-only!)
 
 ### Note:
 Lowercase letters will be automaticly replaced with uppercase ones when you use a uppercase-only font (This also applies to lowercase-only fonts!).
 
 ## Character support:
-Bold, italic and bold italic fonts support all letters, both upper-case and lower-case, and all numerals.
-The monospaced font supports a wide range of characters, including upper-case and lower-case letters, numbers, and symbols such as .,!()[]#/
-Typewriter and Serif only support the same characters as bold, italic and bold italic. Same for Handwriting and Formal.
-Blue, Squared and Circled only support uppercase letters.
+Most fonts support only the alphabet, some support the alphabet + numbers, Monospaced supports ASCII.
 
 
 ## Found a new font?
