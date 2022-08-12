@@ -1,5 +1,5 @@
 # fancy-text (Obsolete)
-A simple Python program to convert your text to Unicode fonts that work anywhere. (No longer supported, use Secret-chest/fancify-text instead)
+A simple Python program to convert your text to Unicode fonts that work anywhere. (No longer supported, try Secret-chest/fancify-text instead)
 
 ## Fonts:
 - 𝗕𝗼𝗹𝗱
